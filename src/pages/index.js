@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import SimpleHero from "../components/SimpleHero"
 import Banner from "../components/Banner"
+import About from "../components/Home/About"
+import Services from "../components/Home/Services"
 
 export default () => (
   <Layout>
@@ -12,9 +14,11 @@ export default () => (
         info="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
       >
         <Link to="/tours" className="btn-white">
-          explore tours{" "}
+          explore tours
         </Link>
       </Banner>
     </SimpleHero>
+    <About />
+    <Services />
   </Layout>
 )
