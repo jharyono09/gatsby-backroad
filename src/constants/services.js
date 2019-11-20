@@ -16,15 +16,5 @@ export default [
     icon: <FaSocks />,
     title: "amazing comfort",
     text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem",
-  },
-  {
-    icon: <FaSocks />,
-    title: "amazing comfort",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem",
-  },
-  {
-    icon: <FaSocks />,
-    title: "amazing comfort",
-    text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem",
-  },
+  },  
 ]

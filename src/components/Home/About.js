@@ -1,7 +1,7 @@
 import React from "react"
 import Title from "../Title"
 import styles from "../../css/about.module.css"
-import abtimg from "../../images/defaultBcg.jpeg"
+import img from "../../images/defaultBcg.jpeg"
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       <div className={styles.aboutCenter}>
         <article className={styles.aboutImg}>
           <div className={styles.imgContainer}>
-            <img src={abtimg} alt="about image" />
+            <img src={img} alt="about company" />
           </div>
         </article>
         <article className={styles.aboutInfo}>
