@@ -1,17 +1,26 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Header from "../examples/ex-grap1"
-import RegularHeader from "../examples/ex-grap2"
+import StyledHero from "../components/StyledHero"
+import { graphql } from "gatsby"
+import Contact from "../components/Contact/Contact"
 
-export const contact = () => {
+export default function contact({ data }) {
   return (
     <Layout>
-      hello from contact page
-      <Header />
-      <h1>another header</h1>
-      <RegularHeader />
+      <StyledHero img={data.contactBcg.childImageSharp.fluid} />
+      <Contact />
     </Layout>
   )
 }
 
-export default contact
+export const query = graphql`
+  query {
+    contactBcg: file(relativePath: { eq: "connectBcg.jpeg" }) {
+      childImageSharp {
+        fluid(quality: 90, maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`

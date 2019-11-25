@@ -1,0 +1,15 @@
+contentful token 
+
+
+I81XbvZOLy8bNYb9DQWE1f-0S--qj6luFC_9NyVBwvw
+
+
+Great! Your CMA token is now stored on your system. (Located at C:\Users\jhary\.contentfulrc.json)
+You can always run contentful logout to remove it.
+
+
+space id 
+api key 
+
+spaceId: `vm60l1vjd9tz`,
+accessToken: `PO5ho2YwEtODJfSCgVWBRSWWxEOfpapdCXb6raJDFTc`,
